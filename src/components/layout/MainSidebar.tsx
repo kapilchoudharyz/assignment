@@ -1,7 +1,7 @@
 import SidebarItems from "@/components/SidebarItems.tsx";
-import OpenSteps from "@/components/OpenSteps.tsx";
+import OpenSteps from "@/components/others/OpenSteps.tsx";
 import { useState } from "react";
-import ClosedSteps from "@/components/ClosedSteps.tsx";
+import ClosedSteps from "@/components/others/ClosedSteps.tsx";
 
 const steps = [
   {
