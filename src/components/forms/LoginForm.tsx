@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import LoginButton from "@/components/buttons/LoginButton.tsx";
 import OtherLoginButtons from "@/components/buttons/OtherLoginButtons.tsx";
-
+import eyeButton from "/eye_button.svg";
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -84,10 +84,7 @@ function LoginForm() {
             setShowPassword((preState) => !preState);
           }}
         >
-          <img
-            src="../../public/eye_button.svg"
-            alt="eye button for seeing the password"
-          />
+          <img src={eyeButton} alt="eye button for seeing the password" />
         </button>
       </div>
       <span

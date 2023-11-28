@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Check } from "lucide-react";
-
+import languageIcon from "/language.svg";
+import arrowDropDown from "/arrow_drop_down.svg";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -63,14 +64,11 @@ export function Combobox() {
           aria-expanded={open}
           className="w-[118.3px] px-[6px] py-[8px] justify-between bg-transparent border-0 text-white hover:bg-[rgba(255,255,255,0.07)] hover:text-white "
         >
-          <img src="../../../public/language.svg" alt="language symbol" />
+          <img src={languageIcon} alt="language symbol" />
           {value
             ? frameworks.find((framework) => framework.value === value)?.label
             : "English"}
-          <img
-            src="../../../public/arrow_drop_down.svg"
-            alt="drop down button"
-          />
+          <img src={arrowDropDown} alt="drop down button" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[300px] p-0 text-[24px] mr-4">

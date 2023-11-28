@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import React, { useEffect, useRef, useState } from "react";
-
+import arrowRight from "/arrow_right.svg";
 interface stepsType {
   step: string;
   about: string;
@@ -54,7 +54,7 @@ const SidebarItems: React.FC<stepsType> = ({
               <div className={"flex flex-row items-center"}>
                 <h6 className={"text-[12px]"}>{step}</h6>
                 <img
-                  src="../../public/arrow_right.svg"
+                  src={arrowRight}
                   alt="Arrow pointing towards right"
                   className={`pr-5 ${!activeLink ? "hidden" : ""}`}
                 />

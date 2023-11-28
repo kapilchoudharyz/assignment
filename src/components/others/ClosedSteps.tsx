@@ -1,9 +1,11 @@
+import circle from "/circle.svg";
+import lock from "/lock.svg";
 function ClosedSteps() {
   return (
-    <div className={"relative"}>
-      <img src="../../../public/circle.svg" alt="circle" className={"w-12"} />
+    <div className={"relative w-12 h-12"}>
+      <img src={circle} alt="circle" className={"w-12"} />
       <img
-        src="../../../public/lock.svg"
+        src={lock}
         alt="lock"
         className={
           "w-5 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
