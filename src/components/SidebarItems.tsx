@@ -54,7 +54,7 @@ const SidebarItems: React.FC<stepsType> = ({
               <div className={"flex flex-row items-center"}>
                 <h6 className={"text-[12px]"}>{step}</h6>
                 <img
-                  src="src/assets/arrow_right.svg"
+                  src="../../public/assets/arrow_right.svg"
                   alt="Arrow pointing towards right"
                   className={`pr-5 ${!activeLink ? "hidden" : ""}`}
                 />

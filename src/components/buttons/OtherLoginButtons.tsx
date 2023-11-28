@@ -10,7 +10,7 @@ function OtherLoginButtons() {
       >
         <img
           className={"w-[26px]"}
-          src="src/assets/icons8-google.svg"
+          src="../../../public/assets/icons8-google.svg"
           alt="Google logo"
         />{" "}
         Sign in with Google
@@ -22,7 +22,7 @@ function OtherLoginButtons() {
       >
         <img
           className={"w-[26px]"}
-          src="src/assets/icons8-apple-logo.svg"
+          src="../../../public/assets/icons8-apple-logo.svg"
           alt="Apple logo"
         />{" "}
         Sign in with Apple

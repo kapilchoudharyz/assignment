@@ -63,11 +63,17 @@ export function Combobox() {
           aria-expanded={open}
           className="w-[118.3px] px-[6px] py-[8px] justify-between bg-transparent border-0 text-white hover:bg-[rgba(255,255,255,0.07)] hover:text-white "
         >
-          <img src="src/assets/language.svg" alt="language symbol" />
+          <img
+            src="../../../public/assets/language.svg"
+            alt="language symbol"
+          />
           {value
             ? frameworks.find((framework) => framework.value === value)?.label
             : "English"}
-          <img src="src/assets/arrow_drop_down.svg" alt="drop down button" />
+          <img
+            src="../../../public/assets/arrow_drop_down.svg"
+            alt="drop down button"
+          />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[300px] p-0 text-[24px] mr-4">

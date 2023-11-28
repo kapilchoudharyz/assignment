@@ -85,7 +85,7 @@ function LoginForm() {
           }}
         >
           <img
-            src="../assets/eye_button.svg"
+            src="../../public/assets/eye_button.svg"
             alt="eye button for seeing the password"
           />
         </button>
