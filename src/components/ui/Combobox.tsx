@@ -63,15 +63,12 @@ export function Combobox() {
           aria-expanded={open}
           className="w-[118.3px] px-[6px] py-[8px] justify-between bg-transparent border-0 text-white hover:bg-[rgba(255,255,255,0.07)] hover:text-white "
         >
-          <img
-            src="../../../public/assets/language.svg"
-            alt="language symbol"
-          />
+          <img src="../../../public/language.svg" alt="language symbol" />
           {value
             ? frameworks.find((framework) => framework.value === value)?.label
             : "English"}
           <img
-            src="../../../public/assets/arrow_drop_down.svg"
+            src="../../../public/arrow_drop_down.svg"
             alt="drop down button"
           />
         </Button>
